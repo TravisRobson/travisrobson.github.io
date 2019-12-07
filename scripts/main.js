@@ -36,7 +36,7 @@ function setUserName() {
 
   let myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool, ' + myName;
+  myHeading.textContent = 'Welcome, ' + myName;
 
 }
 
@@ -48,7 +48,7 @@ if( !localStorage.getItem('name') ) {
 else {
 
   let storedName        = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  myHeading.textContent = 'Welcome ' + storedName;
 
 }
 
