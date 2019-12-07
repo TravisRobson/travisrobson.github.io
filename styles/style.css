@@ -19,16 +19,27 @@ h1 {
   padding: 20px 0;    
 }
 
-p, li {
+p {
   font-size: 16px;    
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1px;
+}
+
+li {
+  font-size: 16px;    
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 
 li.paper:hover {
-	background: #3374C2;
+	background: #d5d5d5;
 }
+
+/*h2.myPage {
+  background-color: #9099A2;
+}*/
 
 /*img {
   display: block;
